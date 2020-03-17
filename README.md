@@ -12,22 +12,22 @@ This repo explores system design fundamentals that may be classified into 4 diff
 _\*\* Note that this project is meant to be used for learning and researching purposes only and it is **not** meant to be used for production._
 
 ## Design Fundamentals  
-* Client-Server Model
-* Network Protocols
-* Storage
-* Latency And Throughput
-* Availability
-* Caching
-* Proxies
-* Load Balancers
-* Hashing
-* Relational Databases
-* Key-Value Stores
-* Replication And Sharding
-* Leader Election
-* Peer-To-Peer Networks
-* Polling And Streaming
-* Configuration
-* Rate Limiting
-* Logging And Monitoring
-* Publish/Subscribe Pattern
+* [Client-Server Model](src/client-server-model)
+* [Network Protocols](src/network-protocols)
+* [Storage](src/storage)
+* [Latency And Throughput](src/latency-and-throughput)
+* [Availability](src/availability)
+* [Caching](src/caching)
+* [Proxies](src/proxies)
+* [Load Balancers](src/load-balancers)
+* [Hashing](src/hashing)
+* [Relational Databases](src/relational-databases)
+* [Key-Value Stores](src/key-value-stores)
+* [Replication And Sharding](src/replication-and-sharding)
+* [Leader Election](src/leader-election)
+* [Peer-To-Peer Networks](src/p2p-networks)
+* [Polling And Streaming](src/polling-and-streaming)
+* [Configuration](src/configuration)
+* [Rate Limiting](src/rate-limiting)
+* [Logging And Monitoring](src/logging-and-monitoring)
+* [Publish/Subscribe Pattern](src/publish-subscribe-pattern)
