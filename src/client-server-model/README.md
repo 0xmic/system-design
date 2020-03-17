@@ -4,10 +4,12 @@
 ## Key Terms  
 ### Client  
 A machine or process that requiests data or service from a server.  
+
 Note that a single machine or piece of software can be oth a client and a server at the same time. For instance, a single machine could act as a server for end users and as a client for a database.  
 
 ### Server  
 A machine or process that provides data or service for a client, usually by listening for incoming netowrk calls.  
+
 Note that a single machine or piece of software can be both a client and a server at the same time. For isntance, a single machine could act as a server for end users and as a client for a database.  
 
 ### Client-Server Model  
@@ -19,4 +21,4 @@ An address given to each machine connected to the public internet. IPv4 addresse
 * __192.168.x.y__: Your private network. For instance, your machine and all machines on your private wifi network will usually have the __192.169__ prefix.  
 
 ### DNS  
-Short for Domain Name System, it describes the entities and protocols involved in the translation from domain names to IP Addresses. Typically, machines make a DNS query to a well known entity which is responsible for returning the IP address (or multiple ones) of the requestsed domain name in the reponse.
+Short for __Domain Name System__, it describes the entities and protocols involved in the translation from domain names to IP Addresses. Typically, machines make a DNS query to a well known entity which is responsible for returning the IP address (or multiple ones) of the requestsed domain name in the reponse.
