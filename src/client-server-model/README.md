@@ -1,11 +1,13 @@
 # Client Server Model  
 The client-server model describes how a server provides resources and services to one or more clients. Examples of servers include web servers, mail servers, and file servers. Each of these servers provide resources to client devices, such as desktop computers, laptops, tablets, and smartphones. Most servers have a one-to-many relationship with clients, meaning a single server can provide resources to multiple clients at one time.  
 
+![Client Server Model](./client-server-model1.png)
+
 A client doesn't necessarily know _what_ the server is, it just knows that it can request information from it. Behind the scenes, a client does a DNS query to determine the IP address of the server needed in order to request information from it.  
 
-A server usually listens to requests on specific ports. Any machine that has a distinct IP address has ~16k ports that programs can listen to. As a client, you have to specify the port that you want to communicate on. Most clients know the port that they should use depending on the protocol that is being used. For example, if a client is trying to speak to a server with HTTP, it uses port 80. A client using HTTPS uses port 443.  
+![DNS Lookup](./client-server-model2.png)
 
-![Client Server Model][https://media.geeksforgeeks.org/wp-content/uploads/20191016120927/8110.png]
+A server usually listens to requests on specific ports. Any machine that has a distinct IP address has ~16k ports that programs can listen to. As a client, you have to specify the port that you want to communicate on. Most clients know the port that they should use depending on the protocol that is being used. For example, if a client is trying to speak to a server with HTTP, it uses port 80. A client using HTTPS uses port 443.  
 
 ## Key Terms  
 ### Client  
