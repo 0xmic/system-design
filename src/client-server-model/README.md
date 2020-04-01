@@ -11,12 +11,12 @@ A server usually listens to requests on specific ports. Any machine that has a d
 
 ## Key Terms  
 ### Client  
-A machine or process that requiests data or service from a server.  
+A machine or process that requests data or service from a server.  
 
-Note that a single machine or piece of software can be oth a client and a server at the same time. For instance, a single machine could act as a server for end users and as a client for a database. Once a client has a server's IP address, it can send an HTTP request to request information. That request includes the IP address of the client, which allows the server to know what IP address to send the response.  
+Note that a single machine or piece of software can be both a client and a server at the same time. For instance, a single machine could act as a server for end users and as a client for a database. Once a client has a server's IP address, it can send an HTTP request to request information. That request includes the IP address of the client, which allows the server to know what IP address to send the response.  
 
 ### Server  
-A machine or process that provides data or service for a client, usually by listening for incoming netowrk calls.  
+A machine or process that provides data or service for a client, usually by listening for incoming network calls.  
 
 Note that a single machine or piece of software can be both a client and a server at the same time. For instance, a single machine could act as a server for end users and as a client for a database.  
 
