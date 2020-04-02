@@ -1,5 +1,5 @@
 # Storage
-
+Nearly all systems require some form of storage. This can be to store user information, metrics about the system itself, or something else. This is where databases come into play. Databases serve two primary purposes - to store and retrieve data (read/write, set/get, record/query). Databases are just servers.
 
 ## Key Terms  
 ### Databases  
@@ -9,7 +9,7 @@ Some databases only keep records in memory, and the users of such databases are 
 
 For the most part though, databases need persistence of those records, and thus cannot use memory. This means that you have to write your data to disk. Anything written to disk will remain through power loss or network partitions, so that's what is used to keep permanent records.  
 
-Since machines die often in a large scale system, special disk partitions or volumes are used by the database processes, and those volumes can get recorvered even if the machine were to go down permanently.  
+Since machines die often in a large scale system, special disk partitions or volumes are used by the database processes, and those volumes can get recovered even if the machine were to go down permanently.  
 
 ### Disk  
 Usually refers to either __HDD (hard-disk drive)__ or __SSD (solid-state drive)__. Data written to disk will persist through power failures and general machine crashes. Disk is also referred to as __non-volatile storage__.  
