@@ -1,5 +1,17 @@
 # Caching  
+Caching is the process of storing data in a location that is different from the original location in order to retrieve that data faster. Caching can be found at the client, server and/or database level. You can also have caches inbetween servers. Caching can even occur at the hardware level.
 
+Caching is helpful when performing many network requests. By caching results of network requests, if a client has a re-request that data, it can find it at a location closer than the database. Caching is also helpful when computing computationally long operations.
+
+If there are multiple clients making requests to a server, you can introduce caching in order to reduce the amount of times you read from the database as to not overload it. 
+
+Caches can also store posts made to a server. Right-through caches post data at both the server and database level, overwriting what is being stored at both levels. Right-through caches are useful for data consistency, but take additional time to write to multiple sources. Right-back caches have servers update and leave databases alone. The system will then asynchronously update the database. The downside of right-back caching is that if a cache goes down before a database is updated, data may get lost. 
+
+Caches can become 'stale' if they haven't been updated with the most consistent data. Staleness is more acceptable in some instances than others - i.e. YouTube video viewcount vs comment posts. 
+
+In general, if the data you are dealing with is immutable, caching is great. However, if data is mutable, then things are tricker as data is stored in more than one place. Caching is useful when storing data that is immutable, there is only a single entity reading or writing data, if you don't care about consistency and staleness of data, or if you can design a system to clear stale data in the cache.
+
+Caches don't have infinite space, which necessitates the needs for eviction policies to get rid of old data in caches. Popular policies are "Least Recently Used" (LRU), "Least Frequently Used" (LFU), "Last In First Out" (LIFO), or "First In First Out" (FIFO).
 
 ## Prerequisites  
 * Latency
