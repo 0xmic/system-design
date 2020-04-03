@@ -18,6 +18,7 @@ Different load balancing algorithms provide different benefits; the choice of lo
 * __Least Connections__ – A new request is sent to the server with the fewest current connections to clients. The relative computing capacity of each server is factored into determining which one has the least connections.
 * __Hash__ – Distributes requests based on a key you define, such as the client IP address or
 the request URL.
+<<<<<<< HEAD
 * __Path Based__ - All requests made towards a specific path will be directed to their own set of servers.
 
 ![Load Balancer](./load_balancer.png)
