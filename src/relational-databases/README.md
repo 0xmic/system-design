@@ -7,7 +7,7 @@ Most relational databases support SQL - Structured Query Language. SQL is a prog
 
 One example of this is if you are trying to query a database with multiple filters - i.e. users who made a purchase in the last month and are currently logged in. While you can filter for this data with queries in JavaScript or Python, if you are dealing with a large scale distributed system, this may be be terrabytes of data that needs to be stored in memory. RDBMS/SQL databases allow for these queries to be run in the database.
 
-![RDBMS Diagram](RDBMS_diagram.png)
+![RDBMS Diagram](./RDBMS_diagram.png)
 
 A SQL database must use ACID transactions (atomic, consistent, isolated, durable).
 * Atomicity - If a database transaction has multiple sub-steps, they either all fail or all complete
