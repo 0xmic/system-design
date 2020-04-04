@@ -5,6 +5,8 @@ Peers make a portion of their resources, such as processing power, disk storage 
 
 Peer-to-peer networks are commonly used in decentralized applications like cryptocurrencies and blockchain applications.
 
+![Peer-to-Peer Network](./p2p-networks.jpg)
+
 ## Prerequisites  
 * Client-Server Model
 * Throughput
