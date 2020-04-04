@@ -1,4 +1,5 @@
 # Logging And Monitoring  
+In order to properly understand and diagnose issues that come up within a system, it is critical to have mechanisms in place that create audit trails of various events that occur within said system.
 
 ## Prerequisite  
 * JSON
