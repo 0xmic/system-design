@@ -32,3 +32,4 @@ _\*\* Note that this project is meant to be used for learning and researching pu
 * [Rate Limiting](src/rate-limiting)
 * [Logging And Monitoring](src/logging-and-monitoring)
 * [Publish/Subscribe Pattern](src/publish-subscribe-pattern)
+* [MapReduce](src/mapReduce)
