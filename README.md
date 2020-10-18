@@ -34,3 +34,4 @@ _\*\* Note that this project is meant to be used for learning and researching pu
 * [Publish/Subscribe Pattern](src/publish-subscribe-pattern)
 * [MapReduce](src/mapReduce)
 * [Security And HTTPS](src/security-and-https)
+* [API Design](src/api-design)
